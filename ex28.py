@@ -1,0 +1,20 @@
+T True and True
+F FALSE AND TRUE
+F 1 == 1 AND 2 == 1
+T "TEST" == "TEST"
+T 1 == 1 OR 2 != 1
+T TRUE AND 1 == 1
+F FALSE AND 0 != 0
+T TRUE OR 1 == 1
+F "TEST" == "TESTING"
+F 1 != 0 AND 2 == 1
+T "TEST" != "TESTING"
+F "TEST" == 1
+T NOT (TRUE AND FALSE)
+F (1 == 1 AND 0 != 1)
+F (10 == 1 OR 1000 == 1000)
+F NOT (1 != 10 OR 3 == 4)
+T NOT ("TESTING" == "TESTING" AND "ZED" == "COOL GUY")
+T 1 == 1 AND NOT ("TESTING" == 1 OR 1 == 0)
+F "CHUCNKY" == "BACON" AND NOT (3 == 4 OR 3 == 3)
+F 3 == 3 AND NOT ("TESTING" == "TESTING" OR "PYTHON == "FUN")
